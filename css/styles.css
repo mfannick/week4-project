@@ -33,3 +33,12 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
 }
+.container{
+    position: absolute;
+}
+.words{
+   position: relative;
+    text-align: right;
+    top:200px;
+    right:50px;
+}
