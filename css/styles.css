@@ -42,3 +42,11 @@ body{
     top:200px;
     right:50px;
 }
+h1{
+    color:rgba(217, 30, 24, 1);
+    font-family: 'Pattaya', sans-serif;
+}
+.intro{
+color: white;
+font-family: 'Syncopate', sans-serif;
+}
