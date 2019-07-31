@@ -28,3 +28,8 @@ a:hover{
     color: rgba(217, 30, 24, 1);
 }
 
+body{
+    background-image: url('../images/p8.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
