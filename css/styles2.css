@@ -30,7 +30,25 @@ a:hover{
     color: rgba(217, 30, 24, 1);
 }
 /************************************************************body*********************************************************/
-
+body{
+    background-image: url('../images/p15.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+};
+h1{
+    text-align: center;
+}
+.pizza{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.card-title,.card-footer{
+    background-color:rgba(238, 238, 238, 1);
+}
+.card-title{
+    border-bottom:1px solid rgba(0, 0, 0, 0.125)
+}
 
 /************************************************************footer*********************************************************/
 footer{
