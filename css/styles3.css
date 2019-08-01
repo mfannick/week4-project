@@ -28,3 +28,10 @@ a{
 a:hover{
     color: rgba(217, 30, 24, 1);
 }
+/************************************************************body*********************************************************/
+
+body{
+    background-image: url('../images/p15.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
