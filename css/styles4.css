@@ -35,7 +35,42 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
 }
+.container{
+    position: absolute;
+}
 
+h1{
+    color:rgba(0, 0, 0, 0.5);
+    font-size: 60px;
+    font-family: 'Pattaya', sans-serif;
+}
+.intro{
+color: white;
+font-family: 'Syncopate', sans-serif;
+}
+.map{
+    position: relative;
+    text-align: center;
+}
+.words{
+position: absolute;
+top: 35%;
+left: 37%;
+}
+.opad{
+margin-top: 20px;
+}
+.contact{
+    text-align: center;
+    color:rgba(217, 30, 24, 1);
+    font-family: 'Pattaya', sans-serif;
+}
+#button{
+    background-color: rgba(0, 0, 0, 0.5);
+}
+h4,p{
+    color: white;
+}
 /************************************************************footer*********************************************************/
 footer{
     position: relative;
