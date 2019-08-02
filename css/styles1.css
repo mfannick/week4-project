@@ -63,6 +63,9 @@ font-family: 'Syncopate', sans-serif;
 .words{
 position: absolute;
 }
+.button{
+    background-color: rgba(217, 30, 24, 1);
+}
 /************************************************************footer*********************************************************/
 footer{
     position: relative;
