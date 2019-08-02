@@ -80,6 +80,9 @@ form{
     margin-bottom: 20px; 
     font-family: 'Syncopate', sans-serif;
 }
+#order,#form{
+    display: none;
+}
 
 
 
