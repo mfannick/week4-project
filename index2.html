@@ -50,7 +50,7 @@
                                          <p>cheese, tomato, shallots.. <br> Price:6000rwf</p>
                                     </div>
                                     <div class="card-footer">
-                                          <button type="submit" id="submit1"  class="btn btn-warning button">Add to cart</button>
+                                          <button type="submit" id="submitCart1"  class="btn btn-warning button">Add to cart</button>
                                     </div>
       
                                     
@@ -66,7 +66,7 @@
                                            <p>cheese, tomato,.. <br> Price:4000rwf</p>
                                       </div>
                                       <div class="card-footer">
-                                            <button type="submit" id="submit2"  class="btn btn-warning button">Add to cart</button>
+                                            <button type="submit" id="submitCart2"  class="btn btn-warning button">Add to cart</button>
                                       </div>
         
                                       
@@ -82,7 +82,7 @@
                                            <p>cheese, mushroom,rocket.. <br> Price:5000rwf</p>
                                       </div>
                                       <div class="card-footer">
-                                            <button type="submit" id="submit3"  class="btn btn-warning button" >Add to cart</button>
+                                            <button type="submit" id="submitCart3"  class="btn btn-warning button" >Add to cart</button>
                                       </div>
         
                                       
@@ -95,27 +95,27 @@
                 </div>
 <!---------------------------------------- form------------------------------------------->
                 <div id="form" class="form">
-                        <form>
+                        <form id="form1">
                                 <div class="form-group">
                                     <label>Name </label> 
-                                    <input type="email" class="form-control" id="inputEmail4" placeholder="Name">
+                                    <input type="name" class="form-control inputForm" id="name" placeholder="Name">
                                 </div>
                                 <div class="form-group">
                                         <label>Pizza size</label>
                                           <div class="form-check">
-                                            <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" checked>
+                                            <input class="form-check-input" type="radio" name="gridRadios" id="small" value="option1" checked>
                                             <label class="form-check-label" for="gridRadios1">
                                               Small
                                             </label>
                                           </div>
                                           <div class="form-check">
-                                            <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
+                                            <input class="form-check-input" type="radio" name="gridRadios" id="medium" value="option2">
                                             <label class="form-check-label" for="gridRadios2">
                                               Medium
                                             </label>
                                           </div>
                                           <div class="form-check">
-                                                <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
+                                                <input class="form-check-input" type="radio" name="gridRadios" id="large" value="option2">
                                                 <label class="form-check-label" for="gridRadios2">
                                                   Large
                                                 </label>
@@ -124,48 +124,43 @@
                                 </div>
                                 <div class="form-group">
                                         <label>Pizza crust</label>
-                                        <select id="inputState" class="form-control">
+                                        <select id="crust" class="form-control inputForm">
                                           <option selected>Choose pizza crust ...</option>
                                           <option>thin </option>
                                           <option>thick </option>
-                                          <option>deep </option>
-                                          <option>cheese field </option>
                                           <option>staffed </option>
                                         </select>
                                 </div> 
                                 <div class="form-group">
                                         <label>Pizza toppings</label>
-                                        <select id="inputState" class="form-control">
+                                        <select id="topping" class="form-control inputForm">
                                           <option selected>Choose pizza topping ...</option>
                                           <option>Bacon, onion, potato & spinach</option>
                                           <option>Beef mince, red onion, mozzarella & BBQ sauce</option>
                                           <option>Ham, pineapple & cheese</option>
-                                          <option>Salami & mozzarella</option>
-                                          <option>Chicken, cheese, spinach, tomato, mushroom, shallots</option>
                                         </select>
                                 </div>
-                                <div class="row">
-                                     <div class="col">
-                                            <button type="submit" id="submit4" class="btn btn-warning button" >Order</button>
-                                     </div>
-                                     <div class="col">
-                                        <button type="submit" id="submit5" class="btn btn-warning button">Check amount charged</button>
-                                     </div>
-                                </div> <br>
-                                <div class="row">
-                                   <div class="col">   
-                                        <button type="submit" id="submit6" class="btn btn-warning button" >Another Order</button>
-                                 </div>
-                                 <div class="col">
-                                        <button type="submit" id="submit7" class="btn btn-warning button">Deliver it to me</button>
-                                 </div> 
-                                </div>
+                        </form>     
+                        <div class="buttons">
+                             <div class="row">
+                                  <div class="col">
+                                       <button type="submit" id="submitOrder" class="btn btn-warning button" >Order</button>
+                                  </div>
+                                                  
+                             </div> <br>
+                             <div class="row">
+                                  <div class="col">   
+                                       <button type="submit" id="submitAnother" class="btn btn-warning button" >Another Order</button>
+                                  </div>
+                             </div>
+                        </div>
+                               
                                     
                                 
                                 
                                 
                                 
-                              </form>
+                             
                             
                 </div>
                 <div class="order" id="order">
@@ -176,7 +171,17 @@
                                   <p>Crust: <span class="crustname"></span></p>
                                   <p>Size Price: <span class="sizeprice"></span></p>
                                   <p>Topping Price: <span class="toppingprice"></span></p>
-                                  <p>Crust price: <span class="crustprice"></span></p>
+                                  <p>Crust price: <span class="crustprice"></span></p> <br>     
+                                  <div class="row">
+                                       <div class="col-5 check">
+                                            <button type="submit" id="submitCheck" class="btn btn-warning button">Check amount charged</button>
+                                       </div>
+
+                                  </div><br><br>
+                                  <p class="total">Total: <span class="crustprice"></span></p><br>
+                                  <div class="col-5 check">
+                                        <button type="submit" id="submitDeliver" class="btn btn-warning button">Deliver it to me</button>
+                                    </div> 
                                   <p class="thank"> THANK YOU!</p>
                          </div>
                        

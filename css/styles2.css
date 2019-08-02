@@ -55,12 +55,10 @@ h1{
     background-color: rgba(0, 0, 0, 0.5);
     
 }
-form{
+form,.buttons{
     margin-left: 300px;
-   
-    
 }
-#inputEmail4,#inputState{
+.inputForm{
  width:40%;
 }
 .button{
@@ -80,8 +78,12 @@ form{
     margin-bottom: 20px; 
     font-family: 'Syncopate', sans-serif;
 }
-#order,#form{
+#order,#form,.total{
     display: none;
+}
+.check{
+    font-family:none;
+    margin-left: 250px;    
 }
 
 
