@@ -1,1 +1,98 @@
 
+@import url('https://fonts.googleapis.com/css?family=Pattaya|Syncopate&display=swap');
+/**************************************************************nav*********************************************************/
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.nav-bar{
+  
+    background-color: rgba(0, 0, 0, 0.5);
+    
+   
+}
+.navul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: right;
+ 
+}
+#imgnav-bar1{
+    margin-top: 0px;
+    margin-left: -90px;
+    border-radius: 10px;
+}
+a{
+    color: rgba(255, 255, 255, 0.7);
+}
+a:hover{
+    color: rgba(217, 30, 24, 1);
+}
+/************************************************************body*********************************************************/
+.container1{
+    background-image: url('../images/p15.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+};
+h1{
+    text-align: center;
+}
+.pizza{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.card-title,.card-footer{
+    background-color:rgba(238, 238, 238, 1);
+}
+.card-title{
+    border-bottom:1px solid rgba(0, 0, 0, 0.125)
+}
+.form{
+    box-sizing: border-box;
+    margin:80px;
+    background-color: rgba(0, 0, 0, 0.5);
+    
+}
+form{
+    margin-left: 300px;
+   
+    
+}
+#inputEmail4,#inputState{
+ width:40%;
+}
+.button{
+    background-color: rgba(217, 30, 24, 1);
+}
+.order1,.thank,.menu{
+    text-align: center;
+    color:rgba(217, 30, 24, 1);
+    font-family: 'Pattaya', sans-serif;
+}
+
+.card1{
+    margin-left: 300px;
+    margin-right: 300px;
+    background-color:rgba(0, 0, 0, 0.5);
+    color: white;
+    margin-bottom: 20px; 
+    font-family: 'Syncopate', sans-serif;
+}
+
+
+
+/************************************************************footer*********************************************************/
+footer{
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.social{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.copyright{
+    text-align: center;
+    color: rgba(255, 255, 255, 0.7);
+}
