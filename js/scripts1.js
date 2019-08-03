@@ -32,20 +32,25 @@ $(document).ready(function(){
     
     // clicking on the Check order amount  button the total amount displays
     $('#submitDeliver').hide();
+    $('.total1').hide();
     $('#submitCheck').click(function(event){
         event.preventDefault(); 
-        $('.total').show();
+        $('.total1').show();
         $('#submitDeliver').show();
       });
     
   // clicking on deliver to me the prompt and the alert pops up
-
+  $('.total2').hide();
+  $('.total3').hide();
   $('#submitDeliver').click(function(event){
     event.preventDefault();
     // 1st the prompt comes
     var location =prompt('Enter your location:')
     // 2nd the alert comes
     alert('your order will be delivered to ' + location)
+    $('.total2').show();
+    $('.total3').show();
+
   });
 
   // click on another order another form adds itsleft to the later form

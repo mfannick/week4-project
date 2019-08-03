@@ -25,6 +25,7 @@
 }
 a{
     color: rgba(255, 255, 255, 0.7);
+    font-family: 'Pattaya', sans-serif;
 }
 a:hover{
     color: rgba(217, 30, 24, 1);
@@ -85,7 +86,9 @@ form,.buttons{
     font-family:none;
     margin-left: 250px;    
 }
-
+.pizza{
+  margin-bottom: 20px;  
+}
 
 
 /************************************************************footer*********************************************************/
@@ -100,4 +103,5 @@ footer{
 .copyright{
     text-align: center;
     color: rgba(255, 255, 255, 0.7);
+    font-family: 'Pattaya', sans-serif;
 }
