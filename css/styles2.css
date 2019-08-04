@@ -1,23 +1,6 @@
 
 @import url('https://fonts.googleapis.com/css?family=Pattaya|Syncopate&display=swap');
 /**************************************************************nav*********************************************************/
-/* @media  screen and (max-width: 1060px) { */
-    /* For tablets: */
-     /* body { */ 
-      /* width: 80%;
-      padding: 0; */
-      /* width:30%; margin-left:3%;
-    } */
-
-    /* Tablet Landscape */ 
-    /* @media screen and (max-width: 1060px) { .container1 { width:67%; } 
-    .container1 { width:30%; margin-left:3%;} }  */
-    /* Tabled Portrait */ 
-    /* @media screen and (max-width: 768px) { .container1{ width:100%; } 
-    .container1 { width:100%; margin:0; border:none; } } */
- 
-
-/***********************************************************************************************************************/
 
 
 *{
