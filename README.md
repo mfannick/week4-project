@@ -7,7 +7,7 @@
  A new web-developer
   ## Setup instructions
   
-   -This links to [live site on GitHub Page](https://mfannick.github.io/week4-project)
+   <!-- -This links to [live site on GitHub Page](https://mfannick.github.io/week4-project) -->
 
 
   ### BDD
