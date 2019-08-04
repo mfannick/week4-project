@@ -42,8 +42,10 @@ body{
 
 h1{
     color:rgba(0, 0, 0, 0.5);
-    font-size: 60px;
     font-family: 'Pattaya', sans-serif;
+}
+.empire{
+font-size: 60px;
 }
 .intro{
 color: white;
