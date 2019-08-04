@@ -1,6 +1,6 @@
 # week4-project
  PIZZA EMPIRE
-## DILANI STUDIO
+## PIZZA EMPIRE
  This project is for designing web application where customers order different sizes of pizzas with one or more toppings. 
  ## Author's Name
  Annick Francine MAJYAMBERE 
