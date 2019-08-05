@@ -18,6 +18,15 @@ Order.prototype.totale = function () {
 Order.prototype.totaleFinal = function () {
   return this.totale() + delivery;
 }
+function resetField() {
+  $('#name').val(' ')
+  $('#crust option:selected').text('');
+  $("input[type=radio]:checked+label").text('');
+  $('#topping option:selected').text('');
+  $('#crust option:selected').val('');
+  $("input[type=radio]:checked").val('');
+  $('#topping option:selected').val('');
+}
 
 
 /************************************FRONT END*************************************/
@@ -112,6 +121,7 @@ $(document).ready(function () {
       $('.totalCost').text(newOrder.totale());
       $('.totalCostD').text('2000');
       $('.totalCostT').text(newOrder.totaleFinal());
+      resetField() ;
 
 
 
@@ -144,6 +154,8 @@ $(document).ready(function () {
         });
       });
     });
+
+    
 
 
 
